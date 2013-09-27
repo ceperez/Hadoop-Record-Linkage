@@ -34,6 +34,7 @@ Improvements
 
 * Apply [locally sensitive hashing](http://en.wikipedia.org/wiki/Locality-sensitive_hashing) as an intermediate step to shortlist the most similar target sequences thus avoiding some of the expensive similarity computations
 
+* Maybe simple in Scalding?
 
 Variations
 ==============
