@@ -3,7 +3,7 @@ Hadoop-Word-Similarity
 
 Hadoop job to find the US place name most similar to a UK place name using a distributed cache. It's a specific instance of the general problem of computing the similarity between an input set of sequences and a fixed target one, possibly followed by a selection operation.
 
-A sequential implementation has O(MN) complexity, which can be reduced to a theoretical O(N) (in the limit of one node per input) if implemented as MapReduce.
+A sequential implementation has O(MN) complexity, which can be reduced to a theoretical O(M) (in the limit of one node per input) if implemented as MapReduce.
 
 Uses a normalised (in [0,1]) [levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance) as similarity metric. There's also an alternative implementation as a normalised bigram [dice's coefficient](http://en.wikipedia.org/wiki/S%C3%B8rensen_similarity_index).
 
