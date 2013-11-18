@@ -1,7 +1,7 @@
 Hadoop-Word-Similarity
 ===================
 
-Hadoop job to find the US place name most similar to a UK place name using a distributed cache. It's a specific instance of the general problem of computing the similarity between an input set of sequences and a fixed target one, possibly followed by a selection operation.
+Hadoop job to find the US place name most similar to a UK place name using a distributed cache. It's a very simple example of record linkage and the general problem of computing the similarity between an input set of sequences and a fixed target one.
 
 A sequential implementation has O(MN) complexity, which can be reduced to a theoretical O(M) (in the limit of one node per input) if implemented as MapReduce.
 
