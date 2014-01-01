@@ -30,7 +30,7 @@ Improvements
 
 * Multi-thread the similarity computation
 
-* Apply fast approximate match like [locally sensitive hashing](http://en.wikipedia.org/wiki/Locality-sensitive_hashing) as an intermediate step to shortlist the most similar target sequences thus avoiding some of the expensive similarity computations
+* Apply fast approximate match like [locality sensitive hashing](http://en.wikipedia.org/wiki/Locality-sensitive_hashing) as an intermediate step to shortlist the most similar target sequences thus avoiding some of the expensive similarity computations
 
 * Maybe simpler in Scalding?
 
