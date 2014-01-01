@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.fluent.hadoop.Faster_Word_Similarity_Mapper.Entry_Array;
+import com.fluent.hadoop.Word_Similarity_Mapper.Entry_Array;
 
 public class Word_Similarity extends Configured implements Tool
 {
@@ -36,8 +36,8 @@ public class Word_Similarity extends Configured implements Tool
 	{
 		job.setJarByClass(Word_Similarity.class);
 		job.setJobName("Word Similarity");
-		job.setMapperClass(Faster_Word_Similarity_Mapper.class);
-		job.setReducerClass(Faster_Word_Similarity_Reducer.class);
+		job.setMapperClass(Word_Similarity_Mapper.class);
+		job.setReducerClass(Word_Similarity_Reducer.class);
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(Entry.class);
 		job.setMapOutputKeyClass(Text.class);
